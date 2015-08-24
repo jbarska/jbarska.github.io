@@ -3,7 +3,28 @@
 <head>
 	<title>My portfolio page</title>
 	<style type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Pacifico' rel='stylesheet' type='text/css'>
 	<!-- CSS goes here --> 
+	body {
+		font-family: 'Pacifico', cursive;
+	}
+	#profile_img {
+		height: 200px;
+		width: 200px;
+		background-color: red;
+		background-size: 300px 300px;
+		border-radius: 10px;
+	}
+	.blue {
+		color: blue;
+		margin: auto;
+	}
+	span {
+		margin-left: 50px;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
 	</style>
 	<script type="text/js">
 	<!-- Javascript goes here -->
@@ -12,14 +33,14 @@
 <body>
 <h1>My portfolio<h1>
 <!-- Add HTML below -->
-<img src="http://images.clipartpanda.com/monkey-clipart-4ib5bExig.jpeg" />
-<h3>Joanna Barska</h3>
+<img id="profile_img" src="http://images.clipartpanda.com/monkey-clipart-4ib5bExig.jpeg" />
+<h3 class="blue">Joanna Barska</h3>
 <p>email: jbarska@gmail.com</p>
 <p>phone: 6947583215</p>
 <br>
-<p>Interests & hobbies</p>
+<p class="blue">Interests & hobbies</p>
 <ul>
-	<li>Travelling</li>
+	<li><span>Travelling</span></li>
 	<li>Scuba diving</li>
 	<li>Hiking</li>
 </ul>
