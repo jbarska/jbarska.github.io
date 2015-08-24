@@ -2,13 +2,15 @@
 <html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 	<title>My portfolio page</title>
 	<style type="text/css">
 	
 	<!-- CSS goes here --> 
 	p {
+	   
 	}
-	#profile_img {
+    #profile_img {
 		height: 200px;
 		width: 200px;
 		border: 5px solid red;
@@ -16,15 +18,20 @@
 		margin-left: 600px;
 		background-image: url("http://g03.a.alicdn.com/kf/HTB1kjKZJXXXXXXgXXXXq6xXFXXX7/100-hand-painted-free-shipping-Tropical-plants-shrubs-banana-leaves-home-wall-decoration-art-oil-paintings.jpg");
 		padding: 70px;
+		background-size: 340px 350px;
+
 	}
 	.blue {
 		color: blue;
 		font-weight: bold;
+		 font-family: 'Indie Flower', cursive;
 	}
 	.list {
 		display: inline;
 		font-size: 20;
-		border: 5px solid black;
+		border: 3px dashed black;
+		padding: 10px;
+		text-align: center;
 	}
 	.contact {
 		display: inline;
@@ -35,9 +42,11 @@
 	}
 	span {
 		margin-left: 50px;
+		margin-right: 50px;
 		font-size: 25px;
 		font-weight: bold;
 		font-family: 'Open Sans Condensed', sans-serif;
+		color: purple;
 	}
 	</style>
 	<script type="text/js">
@@ -52,12 +61,19 @@
 <p class="contact" style="text-align: center"><strong>email:</strong> jbarska@gmail.com</p>
 <p class="contact" style="text-align: center"><strong>phone:</strong> 6947583215</p>
 <br>
-<p class="blue"><em>Interests & hobbies</em></p>
+<p class="blue" style="font-size: 18px">Interests & hobbies</p>
 <ul>
-	<li><span>Travelling</span></li>
+	<li class="list"><span>Travelling</span></li>
 	<li class="list">Scuba diving</li>
 	<li class="list">Hiking</li>
 </ul>
+<p class="blue" style="font-size: 18px">Languages</p>
+<ul>
+    <li class="list">Polish</li>
+    <li class="list">Greek</li>
+    <li class="list">English</li>
+</ul>
+<br>
 <form>     
     <label>Name</label>
     <input name="name" placeholder="Type Here">
