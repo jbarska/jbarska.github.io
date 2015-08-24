@@ -1,0 +1,39 @@
+p {
+	}
+#profile_img {
+	height: 200px;
+	width: 200px;
+	border: 5px solid red;
+	border-radius: 20px;
+	margin-left: 600px;
+	background-image: url("http://g03.a.alicdn.com/kf/HTB1kjKZJXXXXXXgXXXXq6xXFXXX7/100-hand-painted-free-shipping-Tropical-plants-shrubs-banana-leaves-home-wall-decoration-art-oil-paintings.jpg");
+	padding: 70px;
+	background-size: 340px 350px;
+}
+.blue {
+	color: blue;
+	font-weight: bold;
+	 font-family: 'Indie Flower', cursive;
+}
+.list {
+	display: inline;
+	font-size: 20;
+	border: 3px dashed black;
+	padding: 10px;
+	text-align: center;
+}
+.contact {
+	display: inline;
+	margin-left: 400px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+}
+span {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: purple;
+}
