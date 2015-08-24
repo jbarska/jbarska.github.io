@@ -1,5 +1,6 @@
 html {
     background-image: url("http://eastsbeach.com.au/assets/Uploads/_resampled/SetWidth2000-Kiama-Events-Easts-Beach-PB.jpg");
+	position: fixed;
 }
 #profile_img {
 	height: 200px;
